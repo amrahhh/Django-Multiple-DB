@@ -1,0 +1,5 @@
+./manage makemigrations
+./manage.py migrate --database=users_db
+./manage.py migrate --database=blue_db
+./manage.py migrate --database=aqua_db
+./manage.py createsuperuser --database=users_db
